@@ -3,15 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: 23, 23, 23;
+  * {
+    @apply box-border;
   }
-
-  .dark {
-
-  }
-}
-
-@layer base {
-
 }
