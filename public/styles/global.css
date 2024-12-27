@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+
   * {
     @apply box-border;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-size: normal;
+    font-weight: normal;
+    font-display: normal;
+    src: url('/fonts/poppins/Poppins-Medium.ttf') format('ttf');
   }
 }
