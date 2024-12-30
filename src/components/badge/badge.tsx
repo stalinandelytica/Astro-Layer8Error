@@ -3,14 +3,14 @@ import { cva, type VariantProps } from "class-variance-authority";
 import type React from "react";
 
 const badgeVariants = cva(
-  'h-[22px] w-max px-2.5 text-xs inline-flex items-center font-semibold rounded-md',
+  'h-5 w-max max-w-20 px-2.5 border text-xs inline-flex items-center font-semibold rounded-md',
   {
     variants: {
       variant: {
         default: 
-          'bg-woodsmoke-700 text-woodsmoke-50',
+          'bg-woodsmoke-900 text-woodsmoke-50 border-woodsmoke-800',
         secondary: 
-          'bg-woodsmoke-100 text-woodsmoke-950',        
+          'bg-woodsmoke-100 text-woodsmoke-950 border-woodsmoke-50',
       }
     },
     defaultVariants: {
