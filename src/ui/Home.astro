@@ -1,6 +1,9 @@
 ---
 import { Github, Linkedin, Twitter, AtSign, File } from "lucide-react"
 import { Button, Card, Badge, CardContent, CardFooter, CardHeader, CardTitle } from "@components/index";
+import { Avatar } from "@components/avatar/avatar";
+import { AvatarImage } from "@components/avatar/avatar-image";
+import { AvatarFallBack } from "@components/avatar/avatar-fallback";
 
 ---
 <article class="h-max w-max flex flex-col items-start justify-center space-y-4"> 
@@ -17,7 +20,9 @@ import { Button, Card, Badge, CardContent, CardFooter, CardHeader, CardTitle } f
   <section class="w-max h-max">
     <Card className="w-96">
       <CardHeader>
-        <CardTitle>Lorem Ipsum</CardTitle>
+        <CardTitle>          
+          Lorem Ipsum
+        </CardTitle>
       </CardHeader>
       <CardContent>
         Lorem Ipsum <Badge>Angular</Badge> eminem dolor sit amet, consectetur adipiscing elit.
